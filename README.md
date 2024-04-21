@@ -1,4 +1,11 @@
 # Learnify
+
+<p align="center">
+  <img src="thumbnail.png" alt="Thumbnail">
+</p>
+
+
+
 Simplify learning the content of any url or PDF via AI.
 
 Interact with the learning content and ask it questions.

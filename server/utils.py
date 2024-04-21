@@ -12,7 +12,7 @@ from constants import condense_prompt, LearningModule, FlashcardList, context_pr
 from llama_index.core import ServiceContext, Document, VectorStoreIndex
 
 torch.random.manual_seed(42)
-
+oai_key = os.environ["OPENAI_API_KEY"]
 
 def messages_to_prompt(messages):
   prompt = ""
@@ -43,7 +43,7 @@ def get_local_llm(model_name="mistralai/Mistral-7B-Instruct-v0.2",embed_model_na
         device_map=device,
     )
     service_context = ServiceContext.from_defaults(llm=llm, embed_model="local:"+embed_model_name)
-    openai_llm = OpenAI(model="gpt-3.5-turbo-0125", api_key="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")
+    openai_llm = OpenAI(model="gpt-3.5-turbo-0125", api_key=oai_key)
     torch.cuda.empty_cache()
     return service_context, openai_llm
 

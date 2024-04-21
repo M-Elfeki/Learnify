@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnify</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container chat-container">
+        <header>
+            <h1>Learnify</h1>
+        </header>
+        <main id="chat-interface" class="chat-interface">
+            <div id="chat-box" class="chat-box">
+                <div class="loading" id="loading"></div>
+            </div>
+            <aside id="references-box" class="references-box"></aside>
+        </main>
+        <footer id="send-interface" class="send-interface">
+            <input type="text" id="user-input" class="user-input" placeholder="Type a message...">
+            <button id="send-btn" class="send-btn">Send</button>
+        </footer>
+    </div>
+    <div class="container tutorial-container">
+        <div class="top-bar-tutorial">
+            <button class="guidebook">GuideBook</button>
+            <button class="flashcardBtn" id="showFlashcardsBtn">FlashCards</button>
+            
+        </div>
+        <div class="icons-container">
+            <button class="icon-placeholder icon1">
+                <div class="start-bubble">START</div>
+            </button>
+            <div class="icon-placeholder icon2"></div>
+            <div class="icon-placeholder icon3"></div>
+            <div class="icon-placeholder icon4"></div>
+            <div class="icon-placeholder icon5"></div>
+        </div>
+        <div class="exercise-content-container">
+            <div class="top-container-exercise">
+                <div class="top-bar-exercise">
+                    <button class="close-button"></button>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 100%;"></div>
+                    </div>
+                    <div class="heart-container">
+                        <span class="heart">❤️</span>
+                        <span class="heart-count"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="middle-container-exercise"></div>
+            <div class="bottom-container-exercise">
+                <hr>
+                <div class="actions-container">
+                    <button class="action-button skip">SKIP</button>
+                    <button class="action-button check">CHECK</button>
+                </div>
+                <div class="solution-container">
+                    <div class="solution-content">
+                        <img src="./assets/icons/wrong.png" alt="Wrong" class="illustration-wrong">
+                        <img src="./assets/icons/correct.png" alt="Correct" class="illustration-correct" style="display: none;">
+                        <p class="solution-message"></p>
+                        <button class="continue-button">CONTINUE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

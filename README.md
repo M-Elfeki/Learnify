@@ -1,10 +1,5 @@
 # Learnify
 
-
-
-
-# Learnify
-
 ## Simplify Learning with AI
 
 Learnify is an AI-powered tool designed to simplify the learning process by transforming the content of any URL or PDF into interactive and engaging learning materials. With Learnify, users can interact with learning content, ask questions, and receive dynamically generated flashcards and exercises tailored to their level of understanding.

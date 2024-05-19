@@ -31,7 +31,7 @@ The server-side, written in Python using Flask, consists of three main files:
 
 ## Screenshots
    ![Starting_Page](images/Starting_Page.png)
-   ![Chat_And_learn](images/Chat_And_learn.png)
+   ![Chat_And_Learn](images/Chat_And_Learn.png)
    ![Interactive_Learning](images/Interactive_Learning.png)
 
 

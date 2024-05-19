@@ -35,10 +35,9 @@ The server-side, written in Python using Flask, consists of three main files:
 - **utils.py**: Provides utility functions for handling AI models and content processing.
 
 ## Screenshots
-![Video Playground Section](images/Starting Page.png)
-   ![Starting_Page](images/Starting Page.png)
-   ![Chat_And_learn](/images/Chat_And_learn.png)
-   ![Interactive_Learning](/images/Interactive_Learning.png)
+   ![Starting_Page](images/Starting_Page.png)
+   ![Chat_And_learn](images/Chat_And_learn.png)
+   ![Interactive_Learning](images/Interactive_Learning.png)
 
 
 ## Demo
